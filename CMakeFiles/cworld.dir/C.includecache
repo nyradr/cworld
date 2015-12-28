@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/voyez/Documents/cpp/cworld/math/perlin.c
+perlin.h
+/home/voyez/Documents/cpp/cworld/math/perlin.h
+
+/home/voyez/Documents/cpp/cworld/math/perlin.h
+

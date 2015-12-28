@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/main.cpp.o -c /home/voyez/Documents/cpp/cworld/main.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/main.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/FreeFlyCam.cpp.o -c /home/voyez/Documents/cpp/cworld/FreeFlyCam.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/FreeFlyCam.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/MixerBase.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/MixerBase.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/NoiseBase.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/NoiseBase.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/NoiseTools.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/NoiseTools.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/Simplex.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/Simplex.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/Simplex.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/Perlin.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/Perlin.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/Perlin.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/Worley.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/Worley.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/Worley.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/FBM.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/FBM.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/FBM.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/HybridMultiFractal.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/znoise/HybridMultiFractal.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/map/map.cpp.o -c /home/voyez/Documents/cpp/cworld/map/map.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/map/map.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/map/water.cpp.o -c /home/voyez/Documents/cpp/cworld/map/water.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/map/water.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/map/planet.cpp.o -c /home/voyez/Documents/cpp/cworld/map/planet.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/map/planet.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/crea/crea.cpp.o -c /home/voyez/Documents/cpp/cworld/crea/crea.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/crea/crea.cpp"
+}
+]
