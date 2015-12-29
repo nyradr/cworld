@@ -8,16 +8,25 @@ CMakeFiles/cworld.dir/FreeFlyCam.cpp.o
 CMakeFiles/cworld.dir/crea/crea.cpp.o
  /home/voyez/Documents/cpp/cworld/crea/crea.cpp
  /home/voyez/Documents/cpp/cworld/crea/crea.h
+ /home/voyez/Documents/cpp/cworld/crea/vision.h
+ /home/voyez/Documents/cpp/cworld/drawgl.h
+ /home/voyez/Documents/cpp/cworld/map/map.h
+ /home/voyez/Documents/cpp/cworld/map/point.h
+ /home/voyez/Documents/cpp/cworld/math/vector3.hpp
+CMakeFiles/cworld.dir/crea/vision.cpp.o
+ /home/voyez/Documents/cpp/cworld/crea/vision.cpp
+ /home/voyez/Documents/cpp/cworld/crea/vision.h
+ /home/voyez/Documents/cpp/cworld/crea/visionException.hpp
  /home/voyez/Documents/cpp/cworld/drawgl.h
  /home/voyez/Documents/cpp/cworld/map/map.h
  /home/voyez/Documents/cpp/cworld/map/point.h
  /home/voyez/Documents/cpp/cworld/math/vector3.hpp
 CMakeFiles/cworld.dir/main.cpp.o
  /home/voyez/Documents/cpp/cworld/crea/crea.h
+ /home/voyez/Documents/cpp/cworld/crea/vision.h
  /home/voyez/Documents/cpp/cworld/drawgl.h
  /home/voyez/Documents/cpp/cworld/freeFlyCam.h
  /home/voyez/Documents/cpp/cworld/main.cpp
- /home/voyez/Documents/cpp/cworld/map/Planet.h
  /home/voyez/Documents/cpp/cworld/map/map.h
  /home/voyez/Documents/cpp/cworld/map/point.h
  /home/voyez/Documents/cpp/cworld/math/vector3.hpp

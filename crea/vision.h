@@ -10,20 +10,35 @@ class Vision{
 
 public:
     
-    Vision(Map* map, unsigned int &range);
+    Vision(Map* map, unsigned int range){
+        this->map = map;
+        this->range = range;
+    }
     
-    void setRange(unsigned int &range);
-    void setPos(Vector3<int> &pos);
-    void setMap(Map* map, bool del = false);
+    void setRange(const unsigned int &range){this->range = range;}
+    void setPos(Vector3<int> pos){this->actualPos = pos;}
+    void setMap(Map* map, const bool del = false){
+        if(del)
+            delete this->map;
+        this->map = map;
+    }
     
-    const unsigned int& getRange();
-    const Vector3<int>& getPos();
-    const int getVisonAt(const Vector3<int> &pos);     //position relative, vision relative
-    const int getVisonAt(const int &x, const int &y);
+    const unsigned int& getRange(){return range;}
+    const Vector3<int>& getPos(){return actualPos;}
+    
+    //position relative, vision relative
+    const int getVisonAt(Vector3<int> &pos) const throw();     
+    const int getVisonAt(const int &x, const int &y) const throw();
     
     void actualize();
-    void actualize(const Vector3<int> &pos);
-    void actualize(const int &x, const int &y);
+    void actualize(Vector3<int> &pos){
+        setPos(pos);
+        actualize();
+    }
+    void actualize(const int &x, const int &y){
+        setPos(Vector3<int>(x, y, 0));
+        actualize();
+    }
     
 private:
     
@@ -32,6 +47,9 @@ private:
     
     unsigned int range;
     Map* map;
+    
+    
+    
 };
 
 #endif

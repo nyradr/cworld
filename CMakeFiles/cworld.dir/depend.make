@@ -7,16 +7,25 @@ CMakeFiles/cworld.dir/FreeFlyCam.cpp.o: math/vector3.hpp
 
 CMakeFiles/cworld.dir/crea/crea.cpp.o: crea/crea.cpp
 CMakeFiles/cworld.dir/crea/crea.cpp.o: crea/crea.h
+CMakeFiles/cworld.dir/crea/crea.cpp.o: crea/vision.h
 CMakeFiles/cworld.dir/crea/crea.cpp.o: drawgl.h
 CMakeFiles/cworld.dir/crea/crea.cpp.o: map/map.h
 CMakeFiles/cworld.dir/crea/crea.cpp.o: map/point.h
 CMakeFiles/cworld.dir/crea/crea.cpp.o: math/vector3.hpp
 
+CMakeFiles/cworld.dir/crea/vision.cpp.o: crea/vision.cpp
+CMakeFiles/cworld.dir/crea/vision.cpp.o: crea/vision.h
+CMakeFiles/cworld.dir/crea/vision.cpp.o: crea/visionException.hpp
+CMakeFiles/cworld.dir/crea/vision.cpp.o: drawgl.h
+CMakeFiles/cworld.dir/crea/vision.cpp.o: map/map.h
+CMakeFiles/cworld.dir/crea/vision.cpp.o: map/point.h
+CMakeFiles/cworld.dir/crea/vision.cpp.o: math/vector3.hpp
+
 CMakeFiles/cworld.dir/main.cpp.o: crea/crea.h
+CMakeFiles/cworld.dir/main.cpp.o: crea/vision.h
 CMakeFiles/cworld.dir/main.cpp.o: drawgl.h
 CMakeFiles/cworld.dir/main.cpp.o: freeFlyCam.h
 CMakeFiles/cworld.dir/main.cpp.o: main.cpp
-CMakeFiles/cworld.dir/main.cpp.o: map/Planet.h
 CMakeFiles/cworld.dir/main.cpp.o: map/map.h
 CMakeFiles/cworld.dir/main.cpp.o: map/point.h
 CMakeFiles/cworld.dir/main.cpp.o: math/vector3.hpp

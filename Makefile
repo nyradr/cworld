@@ -177,6 +177,33 @@ crea/crea.cpp.s:
 	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/crea/crea.cpp.s
 .PHONY : crea/crea.cpp.s
 
+crea/vision.o: crea/vision.cpp.o
+
+.PHONY : crea/vision.o
+
+# target to build an object file
+crea/vision.cpp.o:
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/crea/vision.cpp.o
+.PHONY : crea/vision.cpp.o
+
+crea/vision.i: crea/vision.cpp.i
+
+.PHONY : crea/vision.i
+
+# target to preprocess a source file
+crea/vision.cpp.i:
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/crea/vision.cpp.i
+.PHONY : crea/vision.cpp.i
+
+crea/vision.s: crea/vision.cpp.s
+
+.PHONY : crea/vision.s
+
+# target to generate assembly for a file
+crea/vision.cpp.s:
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/crea/vision.cpp.s
+.PHONY : crea/vision.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -516,6 +543,9 @@ help:
 	@echo "... crea/crea.o"
 	@echo "... crea/crea.i"
 	@echo "... crea/crea.s"
+	@echo "... crea/vision.o"
+	@echo "... crea/vision.i"
+	@echo "... crea/vision.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/voyez/Documents/cpp/cworld/FreeFlyCam.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/FreeFlyCam.cpp.o"
   "/home/voyez/Documents/cpp/cworld/crea/crea.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/crea/crea.cpp.o"
+  "/home/voyez/Documents/cpp/cworld/crea/vision.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/crea/vision.cpp.o"
   "/home/voyez/Documents/cpp/cworld/main.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/main.cpp.o"
   "/home/voyez/Documents/cpp/cworld/map/map.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/map/map.cpp.o"
   "/home/voyez/Documents/cpp/cworld/map/planet.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/map/planet.cpp.o"

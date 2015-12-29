@@ -5,6 +5,8 @@
 #include "../math/vector3.hpp"
 #include "../map/map.h"
 
+#include "vision.h"
+
 class Crea : public DrawGl{
     
 public:
@@ -13,6 +15,11 @@ public:
     
     void spawn();
     bool move(int mvmt);
+    
+    Vision vision;
+    void vact(){
+        vision.actualize(pos);
+    }
     
 private:
     

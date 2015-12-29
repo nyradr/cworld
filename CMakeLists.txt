@@ -22,6 +22,7 @@ add_executable(cworld main.cpp FreeFlyCam.cpp
     
     #crea
     crea/crea.cpp
+    crea/vision.cpp
     )
     
     

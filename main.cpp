@@ -4,7 +4,6 @@
 #include <GL/glut.h>
 
 #include "map/map.h"
-#include "map/Planet.h"
 
 #include "freeFlyCam.h"
 #include "crea/crea.h"
@@ -36,13 +35,10 @@ int main() {
 
     Map *map = new Map(SX, SX, 0, MAX);
     map->generate();
-    
+
     Crea crea = Crea(map);
     crea.spawn();
-    
-    Planet *pl = new Planet(50, 30, 30);
-    pl->generate();
-    
+
 
     FreeFlyCam *cam = new FreeFlyCam(Vector3<double>(0, 0, 0));
 
@@ -65,11 +61,24 @@ int main() {
                     break;
 
                 case SDLK_a:
-                    pl->generate();
+                    map->generate();
+                    crea.spawn();
                     break;
-                    
+
                 case SDLK_m:
                     crea.move(rand() % 4);
+                    crea.vact();
+                    
+                    for (int i = -3; i < 3; i++) {
+                        for (int j = -3; j < 3; j++) {
+                            try {
+                                std::cout << crea.vision.getVisonAt(i, j) << "\t";
+                            } catch (exception &e) {
+                                cout << "YOLO" << e.what() << endl;
+                            }
+                        }
+                        cout << endl;
+                    }
                     break;
 
                 default:
@@ -102,17 +111,14 @@ int main() {
         glLoadIdentity();
 
         cam->look();
-        
-        pl->draw();
-        
-        //map->draw();
-        //crea.draw();
+
+        map->draw();
+        crea.draw();
 
         glFlush();
         SDL_GL_SwapBuffers();
     }
-    
-    delete pl;
+
     delete cam;
     delete map;
     SDL_Quit();

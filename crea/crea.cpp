@@ -4,7 +4,8 @@
 
 #include <iostream>
 
-Crea::Crea(Map *map) {
+Crea::Crea(Map *map):
+    vision(map, 3){
     this->map = map;
 }
 

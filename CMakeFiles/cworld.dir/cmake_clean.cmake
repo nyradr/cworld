@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cworld.dir/map/water.cpp.o"
   "CMakeFiles/cworld.dir/map/planet.cpp.o"
   "CMakeFiles/cworld.dir/crea/crea.cpp.o"
+  "CMakeFiles/cworld.dir/crea/vision.cpp.o"
   "cworld.pdb"
   "cworld"
 )
