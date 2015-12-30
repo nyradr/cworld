@@ -69,12 +69,13 @@ int main() {
                     crea.move(rand() % 4);
                     crea.vact();
                     
-                    for (int i = -3; i < 3; i++) {
-                        for (int j = -3; j < 3; j++) {
+                    cout << endl << endl;
+                    for (int i = -3; i < 4; i++) {
+                        for (int j = -3; j < 4; j++) {
                             try {
                                 std::cout << crea.vision.getVisonAt(i, j) << "\t";
                             } catch (exception &e) {
-                                cout << "YOLO" << e.what() << endl;
+                                cout << "U\t";
                             }
                         }
                         cout << endl;

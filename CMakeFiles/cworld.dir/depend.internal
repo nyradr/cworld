@@ -20,6 +20,7 @@ CMakeFiles/cworld.dir/crea/vision.cpp.o
  /home/voyez/Documents/cpp/cworld/drawgl.h
  /home/voyez/Documents/cpp/cworld/map/map.h
  /home/voyez/Documents/cpp/cworld/map/point.h
+ /home/voyez/Documents/cpp/cworld/math/math.hpp
  /home/voyez/Documents/cpp/cworld/math/vector3.hpp
 CMakeFiles/cworld.dir/main.cpp.o
  /home/voyez/Documents/cpp/cworld/crea/crea.h
@@ -55,6 +56,9 @@ CMakeFiles/cworld.dir/map/water.cpp.o
  /home/voyez/Documents/cpp/cworld/map/point.h
  /home/voyez/Documents/cpp/cworld/map/water.cpp
  /home/voyez/Documents/cpp/cworld/map/water.h
+CMakeFiles/cworld.dir/math/math.cpp.o
+ /home/voyez/Documents/cpp/cworld/math/math.cpp
+ /home/voyez/Documents/cpp/cworld/math/math.hpp
 CMakeFiles/cworld.dir/znoise/FBM.cpp.o
  /home/voyez/Documents/cpp/cworld/znoise/Enums.hpp
  /home/voyez/Documents/cpp/cworld/znoise/FBM.cpp

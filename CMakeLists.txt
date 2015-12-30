@@ -5,6 +5,9 @@ project(cworld)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y -lSDL -lGL -lGLU")
 
 add_executable(cworld main.cpp FreeFlyCam.cpp
+    #math
+    math/math.cpp
+    
     #znoise
     znoise/MixerBase.cpp
     znoise/NoiseBase.cpp

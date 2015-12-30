@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cworld.dir/main.cpp.o"
   "CMakeFiles/cworld.dir/FreeFlyCam.cpp.o"
+  "CMakeFiles/cworld.dir/math/math.cpp.o"
   "CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o"
   "CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o"
   "CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o"

@@ -15,6 +15,7 @@ public:
     
     void spawn();
     bool move(int mvmt);
+    void setPos(int x, int y){pos.x = x; pos.y = y;}    
     
     Vision vision;
     void vact(){

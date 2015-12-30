@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/voyez/Documents/cpp/cworld/map/map.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/map/map.cpp.o"
   "/home/voyez/Documents/cpp/cworld/map/planet.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/map/planet.cpp.o"
   "/home/voyez/Documents/cpp/cworld/map/water.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/map/water.cpp.o"
+  "/home/voyez/Documents/cpp/cworld/math/math.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/math/math.cpp.o"
   "/home/voyez/Documents/cpp/cworld/znoise/FBM.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/znoise/FBM.cpp.o"
   "/home/voyez/Documents/cpp/cworld/znoise/HybridMultiFractal.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o"
   "/home/voyez/Documents/cpp/cworld/znoise/MixerBase.cpp" "/home/voyez/Documents/cpp/cworld/CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o"

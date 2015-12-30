@@ -27,8 +27,8 @@ public:
     const Vector3<int>& getPos(){return actualPos;}
     
     //position relative, vision relative
-    const int getVisonAt(Vector3<int> &pos) const throw();     
-    const int getVisonAt(const int &x, const int &y) const throw();
+    const int getVisonAt(Vector3<int> pos);
+    const int getVisonAt(const int &x, const int &y);
     
     void actualize();
     void actualize(Vector3<int> &pos){

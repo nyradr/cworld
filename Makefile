@@ -312,6 +312,33 @@ map/water.cpp.s:
 	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/map/water.cpp.s
 .PHONY : map/water.cpp.s
 
+math/math.o: math/math.cpp.o
+
+.PHONY : math/math.o
+
+# target to build an object file
+math/math.cpp.o:
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/math/math.cpp.o
+.PHONY : math/math.cpp.o
+
+math/math.i: math/math.cpp.i
+
+.PHONY : math/math.i
+
+# target to preprocess a source file
+math/math.cpp.i:
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/math/math.cpp.i
+.PHONY : math/math.cpp.i
+
+math/math.s: math/math.cpp.s
+
+.PHONY : math/math.s
+
+# target to generate assembly for a file
+math/math.cpp.s:
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/math/math.cpp.s
+.PHONY : math/math.cpp.s
+
 znoise/FBM.o: znoise/FBM.cpp.o
 
 .PHONY : znoise/FBM.o
@@ -558,6 +585,9 @@ help:
 	@echo "... map/water.o"
 	@echo "... map/water.i"
 	@echo "... map/water.s"
+	@echo "... math/math.o"
+	@echo "... math/math.i"
+	@echo "... math/math.s"
 	@echo "... znoise/FBM.o"
 	@echo "... znoise/FBM.i"
 	@echo "... znoise/FBM.s"

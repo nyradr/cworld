@@ -5,12 +5,16 @@
 
 class VisionUnavailableException : public std::exception{
     
+public:
+    
     virtual const char* what() const throw(){
         return "Vision unavailable";
     }
 } VUnavEx;
 
 class VisionOutOfWorldException : public std::exception{
+    
+public :
     
     virtual const char* what() const throw(){
         return "Vision out of world";

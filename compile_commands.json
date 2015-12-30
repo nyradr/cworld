@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/voyez/Documents/cpp/cworld",
+  "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/math/math.cpp.o -c /home/voyez/Documents/cpp/cworld/math/math.cpp",
+  "file": "/home/voyez/Documents/cpp/cworld/math/math.cpp"
+},
+{
+  "directory": "/home/voyez/Documents/cpp/cworld",
   "command": "/usr/bin/c++      -std=c++1y -lSDL -lGL -lGLU   -o CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/MixerBase.cpp",
   "file": "/home/voyez/Documents/cpp/cworld/znoise/MixerBase.cpp"
 },

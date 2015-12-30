@@ -105,9 +105,33 @@ CMakeFiles/cworld.dir/FreeFlyCam.cpp.o.provides: CMakeFiles/cworld.dir/FreeFlyCa
 CMakeFiles/cworld.dir/FreeFlyCam.cpp.o.provides.build: CMakeFiles/cworld.dir/FreeFlyCam.cpp.o
 
 
+CMakeFiles/cworld.dir/math/math.cpp.o: CMakeFiles/cworld.dir/flags.make
+CMakeFiles/cworld.dir/math/math.cpp.o: math/math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cworld.dir/math/math.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/math/math.cpp.o -c /home/voyez/Documents/cpp/cworld/math/math.cpp
+
+CMakeFiles/cworld.dir/math/math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cworld.dir/math/math.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/voyez/Documents/cpp/cworld/math/math.cpp > CMakeFiles/cworld.dir/math/math.cpp.i
+
+CMakeFiles/cworld.dir/math/math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cworld.dir/math/math.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/voyez/Documents/cpp/cworld/math/math.cpp -o CMakeFiles/cworld.dir/math/math.cpp.s
+
+CMakeFiles/cworld.dir/math/math.cpp.o.requires:
+
+.PHONY : CMakeFiles/cworld.dir/math/math.cpp.o.requires
+
+CMakeFiles/cworld.dir/math/math.cpp.o.provides: CMakeFiles/cworld.dir/math/math.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cworld.dir/build.make CMakeFiles/cworld.dir/math/math.cpp.o.provides.build
+.PHONY : CMakeFiles/cworld.dir/math/math.cpp.o.provides
+
+CMakeFiles/cworld.dir/math/math.cpp.o.provides.build: CMakeFiles/cworld.dir/math/math.cpp.o
+
+
 CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o: znoise/MixerBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/MixerBase.cpp
 
 CMakeFiles/cworld.dir/znoise/MixerBase.cpp.i: cmake_force
@@ -131,7 +155,7 @@ CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o.provides.build: CMakeFiles/cworld.d
 
 CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o: znoise/NoiseBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/NoiseBase.cpp
 
 CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.i: cmake_force
@@ -155,7 +179,7 @@ CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o.provides.build: CMakeFiles/cworld.d
 
 CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o: znoise/NoiseTools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/NoiseTools.cpp
 
 CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.i: cmake_force
@@ -179,7 +203,7 @@ CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o.provides.build: CMakeFiles/cworld.
 
 CMakeFiles/cworld.dir/znoise/Simplex.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/Simplex.cpp.o: znoise/Simplex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cworld.dir/znoise/Simplex.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cworld.dir/znoise/Simplex.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/Simplex.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/Simplex.cpp
 
 CMakeFiles/cworld.dir/znoise/Simplex.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/cworld.dir/znoise/Simplex.cpp.o.provides.build: CMakeFiles/cworld.dir
 
 CMakeFiles/cworld.dir/znoise/Perlin.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/Perlin.cpp.o: znoise/Perlin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cworld.dir/znoise/Perlin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cworld.dir/znoise/Perlin.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/Perlin.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/Perlin.cpp
 
 CMakeFiles/cworld.dir/znoise/Perlin.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/cworld.dir/znoise/Perlin.cpp.o.provides.build: CMakeFiles/cworld.dir/
 
 CMakeFiles/cworld.dir/znoise/Worley.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/Worley.cpp.o: znoise/Worley.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cworld.dir/znoise/Worley.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cworld.dir/znoise/Worley.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/Worley.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/Worley.cpp
 
 CMakeFiles/cworld.dir/znoise/Worley.cpp.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/cworld.dir/znoise/Worley.cpp.o.provides.build: CMakeFiles/cworld.dir/
 
 CMakeFiles/cworld.dir/znoise/FBM.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/FBM.cpp.o: znoise/FBM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cworld.dir/znoise/FBM.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cworld.dir/znoise/FBM.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/FBM.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/FBM.cpp
 
 CMakeFiles/cworld.dir/znoise/FBM.cpp.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/cworld.dir/znoise/FBM.cpp.o.provides.build: CMakeFiles/cworld.dir/zno
 
 CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o: znoise/HybridMultiFractal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o -c /home/voyez/Documents/cpp/cworld/znoise/HybridMultiFractal.cpp
 
 CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/cworld.dir/znoise/HybridMultiFractal.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/cworld.dir/map/map.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/map/map.cpp.o: map/map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/cworld.dir/map/map.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cworld.dir/map/map.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/map/map.cpp.o -c /home/voyez/Documents/cpp/cworld/map/map.cpp
 
 CMakeFiles/cworld.dir/map/map.cpp.i: cmake_force
@@ -323,7 +347,7 @@ CMakeFiles/cworld.dir/map/map.cpp.o.provides.build: CMakeFiles/cworld.dir/map/ma
 
 CMakeFiles/cworld.dir/map/water.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/map/water.cpp.o: map/water.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cworld.dir/map/water.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cworld.dir/map/water.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/map/water.cpp.o -c /home/voyez/Documents/cpp/cworld/map/water.cpp
 
 CMakeFiles/cworld.dir/map/water.cpp.i: cmake_force
@@ -347,7 +371,7 @@ CMakeFiles/cworld.dir/map/water.cpp.o.provides.build: CMakeFiles/cworld.dir/map/
 
 CMakeFiles/cworld.dir/map/planet.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/map/planet.cpp.o: map/planet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cworld.dir/map/planet.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cworld.dir/map/planet.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/map/planet.cpp.o -c /home/voyez/Documents/cpp/cworld/map/planet.cpp
 
 CMakeFiles/cworld.dir/map/planet.cpp.i: cmake_force
@@ -371,7 +395,7 @@ CMakeFiles/cworld.dir/map/planet.cpp.o.provides.build: CMakeFiles/cworld.dir/map
 
 CMakeFiles/cworld.dir/crea/crea.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/crea/crea.cpp.o: crea/crea.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cworld.dir/crea/crea.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cworld.dir/crea/crea.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/crea/crea.cpp.o -c /home/voyez/Documents/cpp/cworld/crea/crea.cpp
 
 CMakeFiles/cworld.dir/crea/crea.cpp.i: cmake_force
@@ -395,7 +419,7 @@ CMakeFiles/cworld.dir/crea/crea.cpp.o.provides.build: CMakeFiles/cworld.dir/crea
 
 CMakeFiles/cworld.dir/crea/vision.cpp.o: CMakeFiles/cworld.dir/flags.make
 CMakeFiles/cworld.dir/crea/vision.cpp.o: crea/vision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cworld.dir/crea/vision.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cworld.dir/crea/vision.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cworld.dir/crea/vision.cpp.o -c /home/voyez/Documents/cpp/cworld/crea/vision.cpp
 
 CMakeFiles/cworld.dir/crea/vision.cpp.i: cmake_force
@@ -421,6 +445,7 @@ CMakeFiles/cworld.dir/crea/vision.cpp.o.provides.build: CMakeFiles/cworld.dir/cr
 cworld_OBJECTS = \
 "CMakeFiles/cworld.dir/main.cpp.o" \
 "CMakeFiles/cworld.dir/FreeFlyCam.cpp.o" \
+"CMakeFiles/cworld.dir/math/math.cpp.o" \
 "CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o" \
 "CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o" \
 "CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o" \
@@ -440,6 +465,7 @@ cworld_EXTERNAL_OBJECTS =
 
 cworld: CMakeFiles/cworld.dir/main.cpp.o
 cworld: CMakeFiles/cworld.dir/FreeFlyCam.cpp.o
+cworld: CMakeFiles/cworld.dir/math/math.cpp.o
 cworld: CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o
 cworld: CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o
 cworld: CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o
@@ -455,7 +481,7 @@ cworld: CMakeFiles/cworld.dir/crea/crea.cpp.o
 cworld: CMakeFiles/cworld.dir/crea/vision.cpp.o
 cworld: CMakeFiles/cworld.dir/build.make
 cworld: CMakeFiles/cworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable cworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/voyez/Documents/cpp/cworld/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable cworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -465,6 +491,7 @@ CMakeFiles/cworld.dir/build: cworld
 
 CMakeFiles/cworld.dir/requires: CMakeFiles/cworld.dir/main.cpp.o.requires
 CMakeFiles/cworld.dir/requires: CMakeFiles/cworld.dir/FreeFlyCam.cpp.o.requires
+CMakeFiles/cworld.dir/requires: CMakeFiles/cworld.dir/math/math.cpp.o.requires
 CMakeFiles/cworld.dir/requires: CMakeFiles/cworld.dir/znoise/MixerBase.cpp.o.requires
 CMakeFiles/cworld.dir/requires: CMakeFiles/cworld.dir/znoise/NoiseBase.cpp.o.requires
 CMakeFiles/cworld.dir/requires: CMakeFiles/cworld.dir/znoise/NoiseTools.cpp.o.requires

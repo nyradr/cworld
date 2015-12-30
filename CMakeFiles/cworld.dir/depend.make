@@ -19,6 +19,7 @@ CMakeFiles/cworld.dir/crea/vision.cpp.o: crea/visionException.hpp
 CMakeFiles/cworld.dir/crea/vision.cpp.o: drawgl.h
 CMakeFiles/cworld.dir/crea/vision.cpp.o: map/map.h
 CMakeFiles/cworld.dir/crea/vision.cpp.o: map/point.h
+CMakeFiles/cworld.dir/crea/vision.cpp.o: math/math.hpp
 CMakeFiles/cworld.dir/crea/vision.cpp.o: math/vector3.hpp
 
 CMakeFiles/cworld.dir/main.cpp.o: crea/crea.h
@@ -54,6 +55,9 @@ CMakeFiles/cworld.dir/map/planet.cpp.o: znoise/Perlin.hpp
 CMakeFiles/cworld.dir/map/water.cpp.o: map/point.h
 CMakeFiles/cworld.dir/map/water.cpp.o: map/water.cpp
 CMakeFiles/cworld.dir/map/water.cpp.o: map/water.h
+
+CMakeFiles/cworld.dir/math/math.cpp.o: math/math.cpp
+CMakeFiles/cworld.dir/math/math.cpp.o: math/math.hpp
 
 CMakeFiles/cworld.dir/znoise/FBM.cpp.o: znoise/Enums.hpp
 CMakeFiles/cworld.dir/znoise/FBM.cpp.o: znoise/FBM.cpp
