@@ -1,8 +1,7 @@
 #ifndef INC_VECTOR3
 #define INC_VECTOR3
 
-
-template <typename T>
+template <class T>
 class Vector3 {
 
 public:

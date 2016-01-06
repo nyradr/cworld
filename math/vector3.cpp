@@ -2,15 +2,19 @@
 
 #include <cmath>
 
-template<class T>
-Vector3<T>::Vector3() {
+template class Vector3<int>;
+template class Vector3<short>;
+template class Vector3<char>;
+template class Vector3<double>;
+template class Vector3<float>;
+
+template<class T> Vector3<T>::Vector3() {
     x = 0;
     y = 0;
     z = 0;
 }
 
-template<class T>
-Vector3<T>::Vector3(const T &x, const T &y, const T &z) {
+template<class T> Vector3<T>::Vector3(const T &x, const T &y, const T &z) {
     this->x = x;
     this->y = y;
     this->z = z;
