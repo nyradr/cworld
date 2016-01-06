@@ -7,6 +7,7 @@
 #include <iostream>
 
 const int Vision::getVisonAt(Vector3<int> pos) {
+    
     Vector3<int> abso = actualPos;
     abso -= pos;
 

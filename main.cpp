@@ -4,6 +4,7 @@
 #include <GL/glut.h>
 
 #include "map/map.h"
+#include "map/Planet.h"
 
 #include "freeFlyCam.h"
 #include "crea/crea.h"
@@ -39,10 +40,12 @@ int main() {
     Crea crea = Crea(map);
     crea.spawn();
 
+    //Planet* p = new Planet(600, 1, 100);
+    //p->generate();
 
     FreeFlyCam *cam = new FreeFlyCam(Vector3<double>(0, 0, 0));
 
-    gluLookAt(SX / 2, SY / 2, SX, SX / 2, SY / 2, 0, 0, 1, 0);
+    //gluLookAt(SX / 2, SY / 2, SX, SX / 2, SY / 2, 0, 0, 1, 0);
 
     GLuint ltime = SDL_GetTicks();
 
@@ -63,6 +66,7 @@ int main() {
                 case SDLK_a:
                     map->generate();
                     crea.spawn();
+                    //p->generate();
                     break;
 
                 case SDLK_m:
@@ -94,6 +98,7 @@ int main() {
 
             case SDL_MOUSEMOTION:
                 cam->OnMouseMotion(event.motion);
+                crea.getCam().onMouseMotion(event.motion);
                 break;
 
             case SDL_MOUSEBUTTONUP:
@@ -110,9 +115,11 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glMatrixMode(GL_MODELVIEW);
         glLoadIdentity();
-
-        cam->look();
-
+    
+    
+        crea.getCam().look();
+        
+        //p->draw();
         map->draw();
         crea.draw();
 
@@ -120,6 +127,7 @@ int main() {
         SDL_GL_SwapBuffers();
     }
 
+    //delete p;
     delete cam;
     delete map;
     SDL_Quit();

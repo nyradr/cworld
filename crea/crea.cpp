@@ -5,7 +5,7 @@
 #include <iostream>
 
 Crea::Crea(Map *map):
-    vision(map, 3){
+    vision(map, 3) , cam(0, 0, 0, 0.001f){
     this->map = map;
 }
 
@@ -46,11 +46,13 @@ bool Crea::move(int mvmt) {
         pos.z = map->getPt(pos.x, pos.y).z +1;
         gen_gl();
     }
+    
+    cam.setPos(pos.x, pos.y, pos.z);
+    
     return ret;
 }
 
-
-void Crea::gen_gl() {
+void Crea::gen_gl(){
     newList();
 
     glNewList(dl_index, GL_COMPILE);
